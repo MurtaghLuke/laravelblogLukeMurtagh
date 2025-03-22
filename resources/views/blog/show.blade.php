@@ -19,4 +19,25 @@
     </p>
 </div>
 
+<!-- Comment form  -->
+<div class="w-4/5 m-auto pt-20">
+    <h3>Leave a Comment</h3>
+    <form action="{{ route('comments.store', $post->id) }}" method="POST">
+        @csrf
+        <input type="text" name="name" placeholder="Your Name" required class="border rounded p-2 mb-4 w-full">
+        <textarea name="comment" placeholder="Your Comment" required class="border rounded p-2 mb-4 w-full"></textarea>
+        <button type="submit" class="bg-blue-500 text-white p-2 rounded">Post Comment</button>
+    </form>
+</div>
+
+<!-- Display comments -->
+<div class="w-4/5 m-auto pt-10">
+    <h3>Comments</h3>
+    @foreach($post->comments as $comment)
+        <p><strong>{{ $comment->name }}</strong>: {{ $comment->comment }}</p>
+    @endforeach
+</div>
+
+
+
 @endsection 
