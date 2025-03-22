@@ -2,14 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Comment;
 use Illuminate\Http\Request;
 
 class CommentController extends Controller
 {
-    public function store(Request $request, $blogPostId)
+    public function store(Request $request, $postId)
     {
         Comment::create([
-            'blog_post_id' => $blogPostId,
+            'post_id' => $postId,
             'name' => $request->name,
             'comment' => $request->comment,
         ]);

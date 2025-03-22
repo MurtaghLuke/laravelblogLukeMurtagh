@@ -7,10 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class Comment extends Model
 {
-    protected $fillable = ['blog_post_id', 'name', 'comment'];
+    use HasFactory;
 
-    public function blogPost()
+    protected $fillable = [
+        'post_id',  // Make sure this matches the actual column name
+        'name',
+        'comment',
+    ];
+
+    public function post()
     {
-        return $this->belongsTo(BlogPost::class);
+        return $this->belongsTo(Post::class, 'post_id');
     }
 }

@@ -19,6 +19,15 @@
     </p>
 </div>
 
+
+
+<!-- Success Message -->
+@if(session('success'))
+    <div class="bg-green-500 text-white p-2 rounded mb-4">
+        {{ session('success') }}
+    </div>
+@endif
+
 <!-- Comment form  -->
 <div class="w-4/5 m-auto pt-20">
     <h3>Leave a Comment</h3>
@@ -33,9 +42,13 @@
 <!-- Display comments -->
 <div class="w-4/5 m-auto pt-10">
     <h3>Comments</h3>
+    @if($post->comments->isNotEmpty())
     @foreach($post->comments as $comment)
         <p><strong>{{ $comment->name }}</strong>: {{ $comment->comment }}</p>
     @endforeach
+    @else
+        <p>Be the first to comment</p>
+    @endif
 </div>
 
 
