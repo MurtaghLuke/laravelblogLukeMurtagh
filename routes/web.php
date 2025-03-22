@@ -18,6 +18,9 @@ use App\Http\Controllers\PostsController;
 Route::get('/', [PagesController::class, 'index']);
 
 Route::resource('/blog', PostsController::class);
+//comments route
+Route::post('/blog/{id}/comments', [CommentController::class, 'store'])->name('comments.store');
+
 
 Auth::routes();
 
