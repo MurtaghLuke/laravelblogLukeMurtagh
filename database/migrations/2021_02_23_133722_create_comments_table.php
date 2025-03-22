@@ -15,7 +15,7 @@ class CreateCommentsTable extends Migration
     {
         Schema::create('comments', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('blog_post_id')->constrained()->onDelete('cascade');  //foreign key.    /////constrainedtells Laravel that blog_post_id references the id column in the blog_posts table automatically. 
+            $table->foreignId('post_id')->constrained('posts')->onDelete('cascade');  //foreign key.    /////constrainedtells Laravel that blog_post_id references the id column in the blog_posts table automatically. 
             $table->string('name');                             ///on delete. if post is deleted, delete its comments too.
             $table->text('comment'); 
             $table->timestamps();
