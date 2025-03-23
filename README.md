@@ -8,7 +8,7 @@
 
 
 ## Added 6 blogs based on irish tourist attractions.
-## unique feature - comment section under the blogs.
+## unique feature - comment section under the blogs. using mvc architecture.
 ## added a page called attractions which contains cards in a grid with the best irish attractions. Utilised tailwind for this page.
 ## added about us page, also utilising tailwind for design
 ## added faq page
