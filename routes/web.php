@@ -31,6 +31,9 @@ Route::get('/attractions', [AttractionController::class, 'index']);
 //about page route
 Route::get('/about', function () { return view('about');});
 
+//faq page route
+Route::get('/faq', function () {return view('faq');});
+
 Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
