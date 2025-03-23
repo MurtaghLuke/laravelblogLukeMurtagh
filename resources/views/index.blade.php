@@ -61,7 +61,7 @@
         </span>
     </div>
 
-    <div class="text-center py-15">
+    {{-- <div class="text-center py-15">
         <span class="uppercase text-s text-gray-400">
             Blog
         </span>
@@ -73,9 +73,9 @@
         <p class="m-auto w-4/5 text-gray-500">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
         </p>
-    </div>
+    </div> --}}
 
-    <div class="sm:grid grid-cols-2 w-4/5 m-auto">
+    {{-- <div class="sm:grid grid-cols-2 w-4/5 m-auto">
         <div class="flex bg-yellow-700 text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 <span class="uppercase text-xs">
@@ -92,7 +92,7 @@
                     Find Out More
                 </a>
             </div>
-        </div>
+        </div> --}}
         <div>
             <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
         </div>
