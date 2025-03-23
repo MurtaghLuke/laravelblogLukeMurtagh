@@ -8,8 +8,10 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         @foreach($attractions as $attraction)
         <div class="bg-white rounded-lg overflow-hidden transition duration-300">
+
+            {{-- class="w-full h-48 object-cover" make images fit the cards --}}
             @if($attraction->image)
-                <img src="{{ asset('images/' . $attraction->image) }}" alt="{{ $attraction->name }}">
+                <img src="{{ asset('images/' . $attraction->image) }}" class="w-full h-48 object-cover" alt="{{ $attraction->name }}">  
             @endif
             <div class="p-5">
                 <h5 class="text-xl font-semibold text-gray-800">{{ $attraction->name }}</h5>
