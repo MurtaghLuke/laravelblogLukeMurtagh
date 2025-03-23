@@ -4,12 +4,14 @@
 
 @import "tailwindcss/utilities";
 
+
 .background-image 
 {
-    background-image: url('https://traveldudes.com/wp-content/uploads/2020/09/Lough-Tay.jpg');
+    background-image: url('https://s7g10.scene7.com/is/image/stena/AdobeStock_276849097:29-9?ts=1688733998813&dpr=off');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 600px;
 }
+
