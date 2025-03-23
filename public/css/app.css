@@ -40489,6 +40489,14 @@ video {
   height: 600px;
 }
 
+h1 {
+  color: black;
+  font-family: "Playwrite IE", cursive !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -199029,4 +199037,4 @@ video {
   }
 }
 
-
+  

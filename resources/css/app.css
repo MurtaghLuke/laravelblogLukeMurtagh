@@ -15,3 +15,12 @@
     height: 600px;
 }
 
+
+h1 {
+    font-family: "Playwrite IE", cursive !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
