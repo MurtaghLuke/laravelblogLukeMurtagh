@@ -23,6 +23,8 @@ Route::resource('/blog', PostsController::class);
 //comments route
 Route::post('/blog/{id}/comments', [CommentController::class, 'store'])->name('comments.store');
 
+//attractions list page route
+Route::get('/top-attractions', function () {return view('top-attractions');});
 
 Auth::routes();
 

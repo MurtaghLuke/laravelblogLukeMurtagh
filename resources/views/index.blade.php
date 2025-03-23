@@ -18,7 +18,7 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+            <img src="https://www.telegraph.co.uk/content/dam/travel/2024/10/21/TELEMMGLPICT000333232851_17295172809720_trans_NvBQzQNjv4Bq-AGWv8VtltrayjpDV73gL67rEM5D_ZWUFtAuh718nRg.jpeg?imwidth=680" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">

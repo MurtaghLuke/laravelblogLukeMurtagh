@@ -1,4 +1,8 @@
-## Make sure to cd into this folder
+## Followed the exact steps in https://www.youtube.com/watch?v=iRUz6SymIxY&ab_channel=SebGates
+## for branching and merging.
+
+
+#### Make sure to cd into this folder
 ## C:\Users\lmurt\OneDrive - Dundalk Institute of Technology\ThirdYearS1\server side\laravelblogLukeMurtagh\laravelblogLukeMurtagh> 
 
 

@@ -21,7 +21,7 @@
 
 
 
-<!-- Success Message -->
+<!-- Comment success message -->
 @if(session('success'))
     <div class="bg-green-500 text-white p-2 rounded mb-4">
         {{ session('success') }}
