@@ -15,9 +15,13 @@ class CreateAttractionsTable extends Migration
     {
         Schema::create('attractions', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('image'); // Stores image filename
+            $table->text('description');
             $table->timestamps();
         });
     }
+    
 
     /**
      * Reverse the migrations.
