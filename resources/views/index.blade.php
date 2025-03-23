@@ -36,28 +36,29 @@
 
             <a 
                 href="/blog"
-                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+                class="uppercase bg-green-700 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
                 Find Out More
             </a>
         </div>
     </div>
 
-    <div class="text-center p-15 bg-black text-white">
+    <div class="text-center p-15 bg-black text-white bg-cover bg-center"
+    style="background-image: url('https://www.esa.int/var/esa/storage/images/space_in_member_states/ireland/19716473-9-eng-GB/Ireland_pillars.jpg');">
         <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
+                Discover All Things Ireland
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
-            Ux Design
+            Nature
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Project Management
+            History
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
+            Culture
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Backend Development
+            Food
         </span>
     </div>
 
