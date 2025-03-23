@@ -42,23 +42,13 @@
                 </li>
                 <li class="pb-1">
                     <a href="/">
-                        Address
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Phone
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
                         Contact
                     </a>
                 </li>
             </ul>
         </div>
 
-        <div>
+        {{-- <div>
             <h3 class="text-l sm:font-bold text-gray-100">
                 Latest posts
             </h3>
@@ -85,9 +75,9 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> --}}
     </div>
     <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6">
-        Copyright 2017-2021 Code With Dary. All Rights Reserved
+        Copyright 2025 Luke Murtagh. All Rights Reserved
     </p>
 </footer>
