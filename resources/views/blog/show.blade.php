@@ -35,7 +35,7 @@
         @csrf
         <input type="text" name="name" placeholder="Your Name" required class="border rounded p-2 mb-4 w-full">
         <textarea name="comment" placeholder="Your Comment" required class="border rounded p-2 mb-4 w-full"></textarea>
-        <button type="submit" class="bg-blue-500 text-white p-2 rounded">Post Comment</button>
+        <button type="submit" class="bg-green-700 text-white p-2 rounded">Post Comment</button>
     </form>
 </div>
 
