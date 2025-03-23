@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\AttractionController;
+
 
 
 /*
@@ -24,7 +26,7 @@ Route::resource('/blog', PostsController::class);
 Route::post('/blog/{id}/comments', [CommentController::class, 'store'])->name('comments.store');
 
 //attractions list page route
-Route::get('/top-attractions', function () {return view('top-attractions');});
+Route::get('/attractions', [AttractionController::class, 'index']);
 
 Auth::routes();
 
