@@ -31,18 +31,13 @@
 
         <div>
             <h3 class="text-l sm:font-bold text-gray-100">
-                Find Us
+                About Us
             </h3>
 
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
                 <li class="pb-1">
-                    <a href="/">
+                    <a href="/about" class="text-gray-400 hover:text-gray-900">
                         What we do
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Contact
                     </a>
                 </li>
             </ul>
