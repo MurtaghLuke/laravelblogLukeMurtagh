@@ -2,13 +2,13 @@
 
 @section('content')
 <div class="container">
-    <h1>Irish Attractions</h1>
+    <h1>Top 10 Irish Attractions!</h1>
     <div class="row">
         @foreach($attractions as $attraction)
         <div class="col-md-4">
             <div class="card">
                 @if($attraction->image)
-                <img src="{{ asset('storage/' . $attraction->image) }}" class="card-img-top" alt="{{ $attraction->name }}">
+                    <img src="{{ asset('images/' . $attraction->image) }}" class="card-img-top" alt="{{ $attraction->name }}">
                 @endif
                 <div class="card-body">
                     <h5 class="card-title">{{ $attraction->name }}</h5>
