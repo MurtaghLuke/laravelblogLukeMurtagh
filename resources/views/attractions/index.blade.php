@@ -1,20 +1,20 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <h1>Top 10 Irish Attractions!</h1>
-    <div class="row">
+<div class="container mx-auto px-4">
+    <h1 class="text-4xl font-bold text-center mt-8 mb-6 text-green-700">Top 10 Irish Attractions!</h1>
+
+    {{-- 3 cards on each row --}}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         @foreach($attractions as $attraction)
-        <div class="col-md-4">
-            <div class="card">
-                @if($attraction->image)
-                    <img src="{{ asset('images/' . $attraction->image) }}" class="card-img-top" alt="{{ $attraction->name }}">
-                @endif
-                <div class="card-body">
-                    <h5 class="card-title">{{ $attraction->name }}</h5>
-                    <p class="card-text">{{ $attraction->description }}</p>
-                    <p><strong>Location:</strong> {{ $attraction->location }}</p>
-                </div>
+        <div class="bg-white rounded-lg overflow-hidden transition duration-300">
+            @if($attraction->image)
+                <img src="{{ asset('images/' . $attraction->image) }}" alt="{{ $attraction->name }}">
+            @endif
+            <div class="p-5">
+                <h5 class="text-xl font-semibold text-gray-800">{{ $attraction->name }}</h5>
+                <p class="text-gray-600 mt-2">{{ $attraction->description }}</p>
+                <p class="text-gray-500 text-sm mt-3">Location: {{ $attraction->location }}</p>
             </div>
         </div>
         @endforeach
