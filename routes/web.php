@@ -28,6 +28,9 @@ Route::post('/blog/{id}/comments', [CommentController::class, 'store'])->name('c
 //attractions list page route
 Route::get('/attractions', [AttractionController::class, 'index']);
 
+//about page route
+Route::get('/about', function () { return view('about');});
+
 Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
