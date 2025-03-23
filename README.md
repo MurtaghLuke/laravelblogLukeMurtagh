@@ -1,12 +1,23 @@
-#### Make sure to cd into this folder
-## C:\Users\lmurt\OneDrive - Dundalk Institute of Technology\ThirdYearS1\server side\laravelblogLukeMurtagh\laravelblogLukeMurtagh> 
 
-## and run 'npm run watch'
+#### Luke Murtagh CA2. Website is called Discover Ireland. The irish tourist boards website.
+
+#### Make sure to cd into this folder
+## C:\Projects\laravelblogLukeMurtagh\laravelblogLukeMurtagh
+
+## and run 'npm run watch' before running 'php artisan serve'
+
+
+## Added 6 blogs based on irish tourist attractions.
+## unique feature - comment section under the blogs.
+## added a page called attractions which contains cards in a grid with the best irish attractions. Utilised tailwind for this page.
+## added about us page, also utilising tailwind for design
+## added faq page
+## made changes to layout of home screen
+
+## used https://www.youtube.com/watch?v=37meCaoQcrg&ab_channel=SebGates   for google fonts.
 
 ## Followed the exact steps in https://www.youtube.com/watch?v=iRUz6SymIxY&ab_channel=SebGates
 ## for branching and merging.
-
-
 
 
 

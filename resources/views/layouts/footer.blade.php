@@ -41,6 +41,14 @@
                     </a>
                 </li>
             </ul>
+
+            <ul class="py-4 sm:text-s pt-4 text-gray-400">
+                <li class="pb-1">
+                    <a href="/faq" class="text-gray-400 hover:text-gray-900">
+                        FAQs
+                    </a>
+                </li>
+            </ul>
         </div>
 
         {{-- <div>
